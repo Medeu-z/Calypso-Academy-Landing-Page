@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+</head>
+<body>
+
+    <header class="wal">
+        <div class="logo"></div>
+        <nav class="navHeader">
+            <div class="navHeadre-links">
+                <ul class="menu">
+                    <li><a href="#thirdPage">Для кого</a></li>
+                    <li><a href="#strategy">О стратегии</a></li>
+                    <li><a href="#syllabus">Программа</a></li>
+                    <li><a href="#price">Стоимость</a></li>
+                </ul>
+            </div>    
+        </nav>
+        <a href="https://t.me/+Pjrd-56gBoIzYWQy">
+            <div class="telegramChat">
+                <span>Связаться</span>
+                <div><i class="fab fa-telegram-plane"></i></div>
+            </div>
+        </a>
+        <div id = "scrollOpenNav" onclick="openNavBar()"><i class="bi bi-list"></i></div>
+        <div id="openNav" onclick="openNavBar()"></div>
+        <div class="navMain">
+            <ul class="menu navMain-links">
+                <span id="closeNav" onclick="closeNavBar()">&#10005</span>
+                <li><div class="barLogo"></div></li>
+                <li><a href="#thirdPage">Для кого</a></li>
+                <li><a href="#mainIdea">Основная идея</a></li>
+                <li><a href="#strategy">О стратегии</a></li>
+                <li><a  href="#authors"> Авторы обучения</a></li>
+                <li><a href="#syllabus">Программа</a></li>
+                <li><a href="#price">Стоимость</a></li>
+                <li><a href="#queationsAnswer"> Вопрос-ответ</a></li>
+                <li><a href="https://t.me/+Pjrd-56gBoIzYWQy"><div class="contactButton">Связаться</div></a></li>
+            </ul>  
+        </div>
+    </header>
+    <main>
+        <section class="firstPage">
+            <div class="firstPage-info wal">
+                 <p>Сформируй пассивный источник дохода в крипте</p>
+                 <div class="firstPage-info-containers">
+                    <div class="firstPage-info-container">
+                        <img src="https://static.tildacdn.com/tild3635-3032-4633-a132-373938626433/Chart.svg">
+                        <div><span>с помощью</span> готовой <br> автоматизированной системы</div>
+                    </div>
+                    <div class="firstPage-info-container">
+                        <img src="https://static.tildacdn.com/tild6263-3861-4435-b133-303135326131/svg_2.svg">
+                        <div><span>с доходностю</span> 7-12% <br> в месяц в долларах</div>
+                    </div>
+                 </div>
+                <a href="#price">
+                    <div class="firstPage-info-button" onmouseover="changeButtonColor()">
+                        <span>Записаться</span>
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                </a>
+ 
+            </div>
+            <div class="firstPage-img">
+                    <img class="firstPage-img-backLine" src="https://static.tildacdn.com/tild6637-3438-4336-a436-346562636637/fd5833a33b6e46ee2358.svg" alt="">
+                    <div class="firstPage-img-line"></div>
+                    <div class="firstPage-img-res start-res">
+                        <div class="firstPage-img-res-money">+$234(3%)</div>
+                        <div class="firstPage-img-res-point"><div></div></div>
+                    </div>
+                    <div class="firstPage-img-res end-res">
+                        <div class="firstPage-img-res-money">+$567(12%)</div>
+                        <div class="firstPage-img-res-point"><div></div></div>
+                    </div> 
+                    <div class="firstPage-img-hands">
+                        <div class="firstPage-img-hand"></div>
+                        <div class="firstPage-img-money"></div>
+                        <div class="firstPage-img-balance"></div>
+                        <div class="firstPage-img-lastmonth"></div>
+                    </div>
+            </div>
+        </section>
+        <section class="secondPage wal">
+            <div class="secondPage-back">
+                <div class="secondPage-phone">
+                    <img class="img-one"src="https://static.tildacdn.com/tild6331-3737-4161-b863-623566643461/png_123_1.png">
+                    <img class="img-two"src="https://static.tildacdn.com/tild6133-3535-4331-b032-363063636336/a40c47d71d8dbaf48f87.svg">
+                    <img class="img-three"src="https://static.tildacdn.com/tild6136-6231-4036-b733-333436303766/45.png">
+                    <img class="img-four"src="https://static.tildacdn.com/tild3563-6235-4464-b565-323837623037/Frame_1.svg">
+
+                </div>
+                <div class="secondPage-word">
+                    <p>Получите доступ <br>к боту и обучитесь стратегии торговли</p>
+                    <div>Бот – наша авторская разработка. Чтобы получать от него максимум и увеличивать свой депозит кратно важно понимать механику рынка и принцип работы стратегии.</div>
+                </div>
+            </div>
+        </section>
+        <section class="thirdPage wal" id="thirdPage">
+            <p>Кому подойдет продукт?</p>
+            <div class="thirdPage-divs">
+                <div class="thirdPage-div-card">
+                    <div class="thirdPage-div-num">01</div>
+                    <div class="thirdPage-div-word">
+                        <span>Действующим инвесторам</span> для диверсификации инвестиций
+                    </div>
+                    <div class="thirdPage-div-img">
+                        <img src="https://static.tildacdn.com/tild3565-6334-4731-b065-366437343939/png_1_15.png" alt="">
+                    </div>
+                </div>
+                <div class="thirdPage-div-card">
+                    <div class="thirdPage-div-num">02</div>
+                    <div class="thirdPage-div-word">
+                        <span>Трейдерам</span>  на фондовом и криптовалютном рынке
+                    </div>
+                    <div class="thirdPage-div-img">
+                        <img src="https://static.tildacdn.com/tild6562-3661-4362-b861-653732356130/png_2_15.png" alt="">
+                    </div>
+                </div>
+                <div class="thirdPage-div-card">
+                    <div class="thirdPage-div-word gridPlace">
+                        <span>Новичкам</span>  в инвестициях и криптовалютах
+                    </div>
+                    <div class="thirdPage-div-num">03</div>
+                    <div class="thirdPage-div-img">
+                        <img src="https://static.tildacdn.com/tild3761-3031-4532-b834-313634383438/png_3_12.png" alt="">
+                    </div>
+                </div>
+                <div class="thirdPage-div-card">
+                    <div class="thirdPage-div-word gridPlace">
+                        Тем, кто хочет создать себе <span>пассивный доход</span>
+                    </div>
+                    <div class="thirdPage-div-num">04</div>
+                    <div class="thirdPage-div-img">
+                        <img src="https://static.tildacdn.com/tild6235-3130-4934-a536-393162646430/png_4_6.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="fourthPage wal" id="mainIdea">
+            <div class="fourthPage-main">
+                <span><img src="https://static.tildacdn.com/tild6337-3061-4930-b530-323766616462/94fc6f6f6fb0f5b63ab3.svg" alt=""> Основная идея:</span>
+                <div class="fourthPage-img">
+                    <img class="fourthPage-img-img" src="" alt="">
+                    <i class="bi bi-lightbulb-fill lamp" ></i>
+                </div>
+            </div>
+            <div class="fourthPage-words">
+                <div class="fourthPage-words-title">
+                    <span>Занимайся своими делами,</span>
+                    <span> веди бизнес,</span>
+                    <span> путешествуй,<br></span>
+                    <span> проводи время с семьей,<br></span>
+                    <span>а наша торговая система будет приносить прибыль</span>
+                </div>
+                <div class="fourthPage-words-footer">Тебе нужно только понимать как в целом устроен рынок, как работает система и как на этом можно стабильно зарабатывать.</div>
+            </div>
+        </section>
+        <section class="fifthPage" id="strategy">
+            <div class="fifthPage-title">Стратегия, которой мы обучаем безопасна и высокодоходна</div>
+            <div  class="fifthPage-containers">
+                <div class="fifthPage-containers-div">
+                    <div class="fifthPage-containers-div-header">
+                        <img class="div1-img1" src="https://static.tildacdn.com/tild3665-3231-4166-b161-613938653135/svg_history.svg" alt="">
+                        <div class="div1-img1-div1 div1-img1-div">
+                            <img src="https://static.tildacdn.com/tild3063-3763-4635-a438-656466333465/svg_Tether_3.svg" alt="">
+                            <div class="div1-img1-div-text">  
+                                <div class="div1-img1-div-titile">Tether</div>
+                                <div class="div1-img1-div-date">January 23, 2022</div>
+                            </div>
+                            <div class="div1-img1-div-price">$1 447.20 USDT</div>
+                        </div>
+                        <div class="div1-img1-div2 div1-img1-div">
+                            <img src="https://static.tildacdn.com/tild3063-3763-4635-a438-656466333465/svg_Tether_3.svg" alt="">
+                            <div class="div1-img1-div-text">  
+                                <div class="div1-img1-div-titile">Tether</div>
+                                <div class="div1-img1-div-date">January 23, 2022</div>
+                            </div>
+                            <div class="div1-img1-div-price">$1 447.20 USDT</div>
+                        </div>
+                    </div>
+                    <div class="fifthPage-containers-div-body">
+                        <div class="fifthPage-containers-div-body-title">Доход в USDT</div>
+                        <div class="fifthPage-containers-div-body-text">USDT это стейблкоин – стабильная монета, которая всегда равна 1 USD. С помощью нашей стратегии можно стабильно увеличивать USDT и создать пассивный источник дохода. USDT ликвиден и безопасен.</div>
+                    </div>
+                </div>
+                <div class="fifthPage-containers-div">
+                    <div class="fifthPage-containers-div-header">
+                        <img class="div2-img1" src="https://static.tildacdn.com/tild3734-3664-4036-a466-653765633661/png_phone.png" alt="">
+                        <img  class="div2-img4" src="https://static.tildacdn.com/tild3937-6633-4635-a364-306233303965/Group_1000002101.svg" alt="">
+                        <img  class="div2-img3" src="https://static.tildacdn.com/tild3761-3565-4633-a163-646232363534/Group_1000001923.svg" alt="">
+                        <img class="div2-img2" src="https://static.tildacdn.com/tild6138-6564-4665-a165-656135343566/png_emoji.png" alt="">
+                        
+                    </div>
+                    <div class="fifthPage-containers-div-body">
+                        <div class="fifthPage-containers-div-body-title">Деньги на вашем счету</div>
+                        <div class="fifthPage-containers-div-body-text">Вы управляете деньгами на своем счете и никому их не переводите. Вы всегда имеете доступ к деньгам.
+                            При правильном подходе, который мы передаем в рамках курса, потеря денег полностью исключена.</div>
+                    </div>
+                </div>
+                <div class="fifthPage-containers-div">
+                    <div class="fifthPage-containers-div-header">
+                        <img class="div3-img1" src="https://static.tildacdn.com/tild3766-3533-4761-b065-363033333734/png_interface.png" alt="">
+                        <div class="div3"><img class="div3-img2" src="https://static.tildacdn.com/tild3264-3661-4465-b763-626362303062/82c8dd6f0c37dfcc7e4e.svg" alt=""></div>
+                        <img class="div3-img3" src="https://static.tildacdn.com/tild3762-3361-4536-b539-666462306263/svg_mouse.svg" alt="">
+                    </div>
+                    <div class="fifthPage-containers-div-body">
+                        <div class="fifthPage-containers-div-body-title">Легко использовать</div>
+                        <div class="fifthPage-containers-div-body-text">Вы работаете по принципу «включил и забыл». Остается только контролиовароть, чтобы все функционировало. Установка занимает 1 час и затем вам понадобится 1 час в неделю, чтобы контролировать робота.</div>
+                    </div>
+                </div>
+                <div class="fifthPage-containers-div">
+                    <div class="fifthPage-containers-div-header">
+                        <img class="div4-img1" src="https://static.tildacdn.com/tild6131-6234-4531-a531-353331373633/Frame_5381.svg" alt="">
+                        <img class="div4-img2" src="https://static.tildacdn.com/tild6330-3162-4337-a437-393163346365/svg_oval.svg" alt="">
+                        <div class="div4-img3">
+                             <img class="div4-img3-img" src="https://static.tildacdn.com/tild3937-3963-4437-a439-343830316335/svg_plashka.svg" alt="">
+                             <div class="div4-img3-text">+$2,567 (150%)</div>
+                        </div>
+                       
+                    </div>
+                    <div class="fifthPage-containers-div-body">
+                        <div class="fifthPage-containers-div-body-title">Доходность от 150% годовых в долларах</div>
+                        <div class="fifthPage-containers-div-body-text">С минимальными рисками пользователи зарабатывают ~150% годовых. Это около 8% в месяц, а остальное делает сложный процент. Мы встроили в стратегию систему реинвестирования прибыли.</div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="sixthPage" id="authors">
+            <div class="sixthPage-title">Авторы стратегии и обучения</div>
+            <div class="sixthPage-body">
+                <div class="sixthPage-body-img">
+                    <img  class = "sixthPage-body-img-one" src="https://static.tildacdn.com/tild6261-3363-4162-a139-313830626633/4039e3b6275ba0d9c05a.svg" alt="">
+                    <div  class = "sixthPage-body-img-two">
+                        <div class = "sixthPage-body-img-author firstAuthor">
+                            <img src="https://static.tildacdn.com/tild3539-3563-4436-b436-346163623063/image_22.png" alt="">
+                        </div>
+                        <div class = "sixthPage-body-img-author secondAuthor">
+                            <img src="https://static.tildacdn.com/tild3036-3235-4061-a462-383339373132/image_3.png" alt="" class="otherAuthors">
+                        </div>
+                        <div class = "sixthPage-body-img-author thirdAuthor">
+                            <img src="https://static.tildacdn.com/tild6131-3432-4338-b764-633262353236/image_8.png" alt="" class="otherAuthors">
+                        </div>
+                        <div class = "sixthPage-body-img-author fourthAuthor">
+                            <img src="https://static.tildacdn.com/tild3862-3631-4861-a563-306638333839/image_4.png" alt="" class="otherAuthors">
+                        </div>
+                        <div class = "sixthPage-body-img-logo">
+                            <img src="https://static.tildacdn.com/tild6163-3137-4133-a639-666565666635/logo.svg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="sixthPage-body-word">
+                    <p>Calypso – команда трейдеров и программистов. <br> Мы создали готовое решение для трейдинга, благодаря которому пользователи зарабатывают пассивный доход без нервов и стресса. </p>
+                    <ul>
+                        <li>На рынке крипты с 2017 года</li>
+                        <li>Авторы нескольких прибыльных стратегий</li>
+                        <li>Делаем в среднем 20% в месяц к депозиту и делимся результатами публично </li>
+                        <li>Создали публичного бота и обучение к нему, чтобы начинающие и опытные пользователи могли создать пассивный источник дохода</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="seventhPage">
+            <div class="seventhPage-title">Как получать доходность от 150% в год</div>
+            <div class="seventhPage-main">
+                <div class="seventhPage-containers">
+                    <div class="seventhPage-scroll">
+                        <!-- <div id="scrollbar">
+                            <div id="bar"></div>
+                        </div> -->
+                        <img class="seventhPage-scroll-line" src="https://static.tildacdn.com/tild3734-6635-4764-b265-623766363732/4552c47527e3c1f3c5b8.svg" alt="">
+                        <div class="seventhPage-scroll-point"></div>
+                        <div class="seventhPage-scroll-point"></div>
+                        <div class="seventhPage-scroll-point"></div>
+                        <div class="seventhPage-scroll-point"></div>
+                        <div class="seventhPage-scroll-point"></div>
+                        <div class="seventhPage-scroll-point"></div>
+                    </div>
+                        <div class="seventhPage-container">
+                            <div class="seventhPage-container-body">
+                                <div class="seventhPage-container-title">Проходим обучение стратегии</div>
+                                <div class="seventhPage-container-text">Обучение построено от простого к сложному и подойдет даже тем, кто не знает как пользоваться криптовалютами</div>
+                            </div>
+                            <div class="seventhPage-container-number">01</div>
+                        </div>
+                        <div class="seventhPage-container">
+                            <div class="seventhPage-container-body">
+                                <div class="seventhPage-container-title">Заводим аккаунт на бирже</div>
+                                <div class="seventhPage-container-text">В процессе обучения зарегистрируемся на бирже и начинаем применять стратегию</div>
+                            </div>
+                            <div class="seventhPage-container-number">02</div>
+                        </div>
+                        <div class="seventhPage-container">
+                            <div class="seventhPage-container-body">
+                                <div class="seventhPage-container-title">Делаем первую прибыль</div>
+                                <div class="seventhPage-container-text">Стартуем с небольшого депозита, чтобы понять принцип работы стратегии и на этом зарабатываем первые деньги</div>
+                            </div>
+                            <div class="seventhPage-container-number">03</div>
+                        </div>
+                        <div class="seventhPage-container">
+                            <div class="seventhPage-container-body">
+                                <div class="seventhPage-container-title">Разбираемся как увеличить профит</div>
+                                <div class="seventhPage-container-text">Главная цель обучения это показать в деталях как работает система и как можно увеличивать прибыль в несколько раз</div>
+                            </div>
+                            <div class="seventhPage-container-number">04</div>
+                        </div>
+                        <div class="seventhPage-container">
+                            <div class="seventhPage-container-body">
+                                <div class="seventhPage-container-title">Запускаем систему на пассив</div>
+                                <div class="seventhPage-container-text">Основная идея стратегии - получать пассивный доход. Вы включаете робота и забываете о нем, а он приносит прибыль.</div>
+                            </div>
+                            <div class="seventhPage-container-number">05</div>
+                        </div>
+                        <div class="seventhPage-container">
+                            <div class="seventhPage-container-body">
+                                <div class="seventhPage-container-title">Контролируем раз в неделю</div>
+                                <div class="seventhPage-container-text">Необходимо уделять суммарно 1 час времени в неделю, чтобы проверять работает ли бот</div>
+                            </div>
+                            <div class="seventhPage-container-number">06</div>
+                        </div>
+                </div>
+                <a href="#price">
+                    <div class="firstPage-info-button" onmouseover="changeButtonColor()">
+                        <span>Записаться</span>
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                </a>
+            </div>
+            
+
+        </section>
+        <section class="eigthPage">
+            <div class="eigthPage-divs">
+                <div class="eigthPage-divs-icon"><img src="https://static.tildacdn.com/tild3762-6666-4664-a533-326236363364/6a72aacf6c0dae791511.svg" alt=""></div>
+                <div class="eigthPage-divs-title">Торговая стратегия</div>
+                <div class="eigthPage-divs-text">Самой стратегии мы посвятили отдельную страницу и подробно описали как это работает.</div>
+                <a href="https://calypsobots.ru/">
+                    <div class="firstPage-info-button eigthPage-divs-button" onmouseover="changeButtonColor()">
+                        <span>Перейти</span>
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                    <p>Перейти</p>
+                </a>
+            </div>
+            <div class="eigthPage-divs eigthPage-divs-last">
+                <img class="eigthPage-divs-last-img" src="https://static.tildacdn.com/tild3734-6437-4633-b738-303033616564/png_mak.png" alt="">
+            </div>
+        </section>
+        <section class="ninthPage">
+            <div class="ninthPage-title">Система решает самые частые ошибки трейдеров</div>
+            <div class="ninthPage-containers-back">
+                <img src="https://static.tildacdn.com/tild3836-6634-4538-b765-663164353462/Frame_1.svg" alt="">
+            </div>
+            <div class="ninthPage-containers">
+                <div class="ninthPage-container">
+                    <div class="ninthPage-container-emoji">
+                        <img src="https://static.tildacdn.com/tild6335-6433-4632-b130-343863653831/3.png" alt="">
+                        <img src="https://static.tildacdn.com/tild6331-3831-4637-b566-613831353766/d6ea55bb5456f338842c.svg" alt="">
+                    </div>
+                    <div class="ninthPage-container-title">Эмоции страха и жадности</div>
+                    <div class="ninthPage-container-text">Человек часто совершает ошибки из-за эмоций. Несколько убыточных сделок могут привести к новым потерям и необдуманным решениям.</div>
+                </div>
+
+                <div class="ninthPage-container">
+                    <div class="ninthPage-container-emoji">
+                        <img src="https://static.tildacdn.com/tild6566-3135-4739-b365-306264373435/image_29.png" alt="">
+                        <img src="https://static.tildacdn.com/tild3531-3530-4633-a331-356166336166/Group_1000002114.svg" alt="">
+                    </div>
+                    <div class="ninthPage-container-title">У робота <span>нет эмоций</span></div>
+                    <div class="ninthPage-container-text">Робот это машина, которая выполняет проверенный набор действий с компьютерным холодом. Он не испытывает эмоций.</div>
+                    <div class="ninthPage-container-img">
+                        <img src="https://static.tildacdn.com/tild3135-3663-4332-b932-366465633932/Frame_1.svg" alt="">
+                    </div>
+                </div>
+                <div class="ninthPage-container">
+                    <div class="ninthPage-container-emoji">
+                        <img src="https://static.tildacdn.com/tild6335-6433-4632-b130-343863653831/3.png" alt="">
+                        <img src="https://static.tildacdn.com/tild6630-3366-4435-b337-303561383838/a3c3cef36ebcc40e13e0.svg" alt="">
+                    </div>
+                    <div class="ninthPage-container-title">Отсутсвие стратегии</div>
+                    <div class="ninthPage-container-text">Обычно у начинающих трейдеров много ожиданий к доходам от трейдинга из-за рекламы в интернете, но у них нет стратегии и понимания как это работает.</div>
+                </div>
+
+                <div class="ninthPage-container">
+                    <div class="ninthPage-container-emoji">
+                        <img src="https://static.tildacdn.com/tild6566-3135-4739-b365-306264373435/image_29.png" alt="">
+                        <img src="https://static.tildacdn.com/tild3531-3530-4633-a331-356166336166/Group_1000002114.svg" alt="">
+                    </div>
+                    <div class="ninthPage-container-title"><span>Провереная</span> стратегия</div>
+                    <div class="ninthPage-container-text">Мы создали стратегию и подключаем пользователей. Эта стратегия проверена временем, расчётами, нашими публичными результатами и другими трейдерами.</div>
+                    <div class="ninthPage-container-img">
+                        <img src="https://static.tildacdn.com/tild3135-3663-4332-b932-366465633932/Frame_1.svg" alt="">
+                    </div>
+                </div>
+                <div class="ninthPage-container">
+                    <div class="ninthPage-container-emoji">
+                        <img src="https://static.tildacdn.com/tild3731-3039-4236-a335-386336336561/4.png" alt="">
+                        <img src="https://static.tildacdn.com/tild3566-3036-4461-a630-633130373533/c5d14c454ac258020683.svg" alt="">
+                    </div>
+                    <div class="ninthPage-container-title">Нет времени на торговлю</div>
+                    <div class="ninthPage-container-text">Из-за отсутсвия времени человек не занимается анализом и прибегает к сигналам псевдогуру в телеграмме, где сделана хорошая реклама. На деле происходит слив депозита.</div>
+                </div>
+
+                <div class="ninthPage-container">
+                    <div class="ninthPage-container-emoji">
+                        <img src="https://static.tildacdn.com/tild6566-3135-4739-b365-306264373435/image_29.png" alt="">
+                        <img src="https://static.tildacdn.com/tild3531-3530-4633-a331-356166336166/Group_1000002114.svg" alt="">
+                    </div>
+                    <div class="ninthPage-container-title"><span>Пару часов</span> на установку и контроль</div>
+                    <div class="ninthPage-container-text">Алгоритмическая стратегия приносит пассивный доход. Стабильно и понятно. Нужно всего пару часов на установку и час в неделю на контроль. Доходность 150% в год без рисков.</div>
+                    <div class="ninthPage-container-img">
+                        <img src="https://static.tildacdn.com/tild3135-3663-4332-b932-366465633932/Frame_1.svg" alt="">
+                    </div>
+                </div>
+                
+               
+            </div>
+           
+        </section>
+        <section class="tenthPage" id="syllabus">
+            <div class="tenthPage-title">Программа обучения</div>
+            <div class="tenthPage-modules">
+                <div class="tenthPage-module tenthPage-module-selected" onclick="openModule(this)">Модуль 1</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 2</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 3</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 4</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 5</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 6</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 7</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 8</div>
+                <div class="tenthPage-module tenthPage-module-notSelected" onclick="openModule(this)">Модуль 9</div>
+            </div>
+            <div class="tenthPage-modules-cards">
+               
+                <div class="tenthPage-module-card card-selected">
+                    <div class="tenthPage-module-card-header" >
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild6363-6565-4837-a437-363634623935/0d764321e3dd0b781846.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Введение в криптовалюты и криптовалютные биржи</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">01</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Регистрация на биржах</li>
+                                    <li>Торговля на Binance через брокера (в обход блокировки)</li>
+                                    <li>Обзор необходимого для трейдинга функционала биржи</li>
+                                    <li>Как купить криптовалюту</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы разобрались на бирже и можете легко ее использовать для торговли.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3733-3265-4963-a339-356533306462/Group_1000002115.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Способы заработка на криптовалютах</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">02</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Инвестирование в криптовалюты</li>
+                                    <li>Трейдинг и его виды</li>
+                                    <li>Введение в нашу торговую систему на роботе</li>
+                                    <li>Обзор торговой системы в деталях</li>
+                                    <li>Почему мы выбрали именно эту стратегию и зарабатываем на ней</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы понимаете как зарабатывать на криптовалютах и понимаете принцип нашей стратегии и как вы будете на ней зарабатывать от 150% в год без рисков.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3466-3033-4261-b563-383936343830/Group_1000002114.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Торговля роботом по нашей системе</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">03</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Подробный обзор стратегии и разбор будущих сделок</li>
+                                    <li>Обзор функционала робота</li>
+                                    <li>Установка робота и первая практика на реальные деньги</li>
+                                    <li>Продолжение практики и изучение торговли с кредитным плечом</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы установили робота и заработали первые деньги</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3737-3931-4266-a161-383461333762/Group_1000002113.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Обзор стратегии и комбинаций</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">04</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>5 стратегий использования робота</li>
+                                    <li>Торговля на ситовом рынке</li>
+                                    <li>Торговля на фьючерсах</li>
+                                    <li>Управление рисками при торговле роботом</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы знаете прибыльные стратегии для торговли роботом и можете с уверенностью сформировать себе пассивный источник дохода</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild6333-6161-4966-b136-656131343439/Group_1000002116.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Технический анализ и инструменты анализа цены</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">05</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Введение в технический анализ на криптовалютах</li>
+                                    <li>Инструменты прогнозирования цены в среднесрочную перспективу</li>
+                                    <li>Как с помощью анализа рынка управлять роботом и увеличивать свою прибыль</li>
+                                    <li>Когда лучше увеличивать риск на роботе, а когда уменьшать</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы знаете как прогнозировать цену и можете это делать</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3732-3230-4661-b031-316539393661/Group_1000002117.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Управление капиталом и рисками</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">06</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Успешные принципы управления деньгами и торговым депозитом</li>
+                                    <li>Обзор ошибок трейдеров</li>
+                                    <li>Как никогда не потерять деньги на бирже</li>
+                                    <li>Разумное управление рисками в трейдинге</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы знаете как правильно управлять своим капиталом так, чтобы не потерять деньги</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3865-6263-4231-b263-643337633639/Group_1000002118.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Управление эмоциями и психология инвестора</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">07</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Как правильно управлять собой, даже если торгует робот</li>
+                                    <li>Как испортить работу робота и как ее наладить</li>
+                                    <li>Частые причины потерь денег трейдерами</li>
+                                    <li>Ставим робота на полной пассив и выключаем участие человека и его эмоций</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы имеете железную уверенность в том, что не совершите ошибок, заработаете и не будете тратить на это время, эмоции</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3430-6263-4265-a135-663234336536/Group_1000002112.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Способы увеличения доходности в несколько раз</div>
+                                <div class="tenthPage-module-button">В пакете «Продвинутый» и «Эксперт»</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">08</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>Как повысить доходность в 2 раза без увеличения рисков</li>
+                                    <li>Как увеличивать количество монет, чтобы зарабатывать и на росте их котировок и на увеличении монет на счете</li>
+                                    <li>Комбинация использования фьючерсов и спотового рынка</li>
+                                    <li>Как сделать 600% годовых</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы знаете как кратно повысить прибыль на своем счете</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tenthPage-module-card card-hide">
+                    <div class="tenthPage-module-card-header">
+                        <div class="tenthPage-module-description">
+                            <div class="tenthPage-module-img">
+                                <img src="https://static.tildacdn.com/tild3134-6165-4633-b535-333334613961/Group_1000002111.svg" alt="">
+                            </div>
+                            <div class="tenthPage-module-title">
+                                <div>Как открыть свой фонд и зарабатывать на деньгах клиентов</div>
+                                <div class="tenthPage-module-button">Только в пакете «Эксперт»</div>
+                            </div>
+                        </div>
+                        <div class="tenthPage-module-number">09</div>
+                    </div>
+
+                    <div class="tenthPage-module-card-body">
+                        <div class="tenthPage-module-card-word">
+                            <p>Темы:</p>
+                            <div>
+                                <ul>
+                                    <li>На каком этапе стоит начинать брать в доверительное управление</li>
+                                    <li>Какой клиент подойдет, а какой нет</li>
+                                    <li>Финансовая модель фонда основанная на нашем опыте</li>
+                                    <li>Как работать в долгосрок и через 2-3 года иметь огромный капитал в управлении</li>
+                                    <li>Управление крупным капиталом</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="tenthPage-module-card-word">
+                            <p>Результат:</p>
+                             <div>Вы знаете как можно начать больше зарабатывать с помощью чужих денег в своем фонде</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="eleventhPage">
+            <div class="eleventhPage-background-img">Практика</div>
+            <div class="eleventhPage-word">
+                <div class="eleventhPage-word-titile">В процессе обучения вас ждет <span> много практики</span></div>
+                <div class="eleventhPage-word-text">От простого к сложному вы поймете как
+                с помощью трейдинга ботом создать себе пассивный доход на криптовалютах.</div>
+            </div>
+            <div class="scroll">
+                <div class="eleventhPage-div scrolling-wrapper ">
+                                <div class="eleventhPage-div-container">
+                                    <img class="eleventhPage-div-container-header-img1" src="https://static.tildacdn.com/tild3065-3137-4463-b332-393866313930/png_1_16.png" alt="">
+                                    <div class="eleventhPage-div-container-header">
+                                        <div class="eleventhPage-div-container-number">01</div>
+                                        <div class="eleventhPage-div-container-footer">Изучаете теорию</div>
+                                    </div>
+                                </div>
+                                <div class="eleventhPage-div-line">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild6462-3065-4362-b761-623866633864/svg_r_2.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                </div>
+                                <div class="eleventhPage-div-container">
+                                    <img class="eleventhPage-div-container-header-img2" src="https://static.tildacdn.com/tild6563-3031-4862-b732-316430356539/png_2_16.png" alt="">
+                                    <div class="eleventhPage-div-container-header">
+                                        <div class="eleventhPage-div-container-number">02</div>
+                                        <div class="eleventhPage-div-container-footer">Выполняете домашние задания</div>
+                                    </div>
+                                
+                                </div>
+                                <div class="eleventhPage-div-line">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild6462-3065-4362-b761-623866633864/svg_r_2.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                </div>
+                                <div class="eleventhPage-div-container">
+                                    <img class="eleventhPage-div-container-header-img2" src="https://static.tildacdn.com/tild3132-3233-4462-b139-353063643738/png_3_13.png" alt="">
+                                    <div class="eleventhPage-div-container-header">
+                                        <div class="eleventhPage-div-container-number">03</div>
+                                        <div class="eleventhPage-div-container-footer">Получаете обратную связь от кураторов</div>
+                                    </div>
+                                
+                                </div>
+                                <div class="eleventhPage-div-line">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild6462-3065-4362-b761-623866633864/svg_r_2.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                </div>
+                                <div class="eleventhPage-div-container">
+                                    <img class="eleventhPage-div-container-header-img2" src="https://static.tildacdn.com/tild3034-3563-4336-b362-373362633838/png_4_7.png" alt="">
+                                    <div class="eleventhPage-div-container-header">
+                                        <div class="eleventhPage-div-container-number">04</div>
+                                        <div class="eleventhPage-div-container-footer">Общаетесь в чате с единомышленниками</div>
+                                    </div>
+                                
+                                </div>
+                                <div class="eleventhPage-div-line">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild6462-3065-4362-b761-623866633864/svg_r_2.svg" alt="">
+                                    <img class="eleventhPage-div-line-img" src="https://static.tildacdn.com/tild3864-6663-4633-a365-306632633335/svg_el_3.svg" alt="">
+                                </div>
+                                <div class="eleventhPage-div-container">
+                                    <img class="eleventhPage-div-container-header-img2" src="https://static.tildacdn.com/tild3830-6136-4065-b138-323265663339/png_5_7.png" alt="">
+                                    <div class="eleventhPage-div-container-header">
+                                        <div class="eleventhPage-div-container-number"><i class="bi bi-lightning-charge-fill"></i></div>
+                                        <div class="eleventhPage-div-container-footer">Получаете доход на криптовалютах</div>
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+            </div>
+            
+           
+        </section>
+
+        <section class="twelfthPage wal" id="price">
+            <p class="twelfthPage-title">Стоимость</p>
+            <div class="twelfthPage-cards">
+
+                <div class="twelfthPage-card">
+                    <div class="twelfthPage-card-name">База</div>
+                    <div class="twelfthPage-card-balance">$600</div>
+                    <img class="twelfthPage-card-hr" src="https://static.tildacdn.com/tild3739-6635-4662-b631-323365373561/29ee519d1bf302e4889d.svg">
+                    <div class="twelfthPage-card-pros">
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div> C 1 до 7 модуля</div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Доступ к боту на 3 месяца</div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Сообщество учеников и трейдеров</div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Куратор и проверка домашних заданий</div></div>
+                    </div>
+                    <div class="firstPage-info-button twelfthPage-card-button" onmouseover="changeButtonColor()">
+                        <span>Выбрать пакет </span> 
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                </div>
+
+                <div class="twelfthPage-card popularCard">
+                    <div class="twelfthPage-popular-card"><i class="bi bi-lightning-charge-fill"></i>САМЫЙ ПОПУЛЯРНЫЙ</div>
+                    <div class="twelfthPage-card-name">Продвинутый</div>
+                    <div class="twelfthPage-card-balance">$1200</div>
+                    <img class="twelfthPage-card-hr" src="https://static.tildacdn.com/tild3739-6635-4662-b631-323365373561/29ee519d1bf302e4889d.svg">
+                    <div class="twelfthPage-card-pros-butt">Всё, что во втором пакете +</div>
+                    <div class="twelfthPage-card-pros">
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Дополнительно 8 модуль</div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Доступ к боту на 6 месяцев</div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Индивидуальная поддержка по техническим вопросам</div></div>
+                    </div>
+                    <div class="firstPage-info-button twelfthPage-card-button" onmouseover="changeButtonColor()">
+                        <span>Выбрать пакет </span> 
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                    <div class="twelfthPage-popular-card-button"></div>
+                </div>
+
+                <div class="twelfthPage-card">
+                    <div class="twelfthPage-card-name">Эксперт</div>
+                    <div class="twelfthPage-card-balance">$2500</div>
+                    <img class="twelfthPage-card-hr" src="https://static.tildacdn.com/tild3739-6635-4662-b631-323365373561/29ee519d1bf302e4889d.svg">
+                    <div class="twelfthPage-card-pros-butt">Всё, что во втором пакете +</div>
+                    <div class="twelfthPage-card-pros">
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Дополнительно 9 модуль</div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Доступ к боту на 1 год с возможностью заморозки </div></div>
+                        <div><img src="https://static.tildacdn.com/tild6337-3939-4162-a663-333263383263/01637a38148a1b801c2d.svg" alt=""><div>Личная поддержка на всех этапах</div></div>
+                    </div>
+                    <div class="firstPage-info-button twelfthPage-card-button" onmouseover="changeButtonColor()">
+                        <span>Выбрать пакет </span> 
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="thirteenthPage wal" id="queationsAnswer">
+            <div class="thirteenthPage-title">Вопрос-ответ</div>
+            <div class="thirteenthPage-content"></div>
+        </section>
+        <section class="fourteenthPage">
+            <div class="fourteenthPage-back">Calypso bots</div>
+            <div class="fourteenthPage-word">Присоединяйтесь к нашему сообществу алготрейдеров</div>
+            <div class="fourteenthPage-img">
+                <div class="firstPage-info-button fourteenthPage-img-three">
+                    <span>Telegram</span>
+                    <div><i class="fab fa-telegram-plane"></i></div>
+                </div>
+                
+                <div class="fourteenthPage-img-one"></div>
+                <div class="fourteenthPage-img-two"></div>
+                <div class="firstPage-info-button fourteenthPage-img-four">
+                    <span>Blog</span>
+                    <div><i class="bi bi-file-text-fill"></i></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <img src="https://static.tildacdn.com/tild6535-3838-4561-a666-623634646434/3d1667355b9e0cf472a5.svg" alt="">
+        <div class="footer-word">
+            <div>© Calypso Bots. Алготрейдинг и торговые стратегии</div>
+            <div>Разработка сайта</div>
+        </div>
+        <div class="footer-logo"> 
+            <div class="footer-logo-div">
+                Made on 
+                <img src="https://static.tildacdn.com/img/tildacopy_black.png" alt="" class="footer-logo-img">
+                Tilda
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
