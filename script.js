@@ -80,28 +80,8 @@ const onScroll = () => {
         }
       
     }
-    
-
-    //билмим
-    // if(6800 <  scroll && 8300 >  scroll){
-    //     var bar = document.getElementById("bar");
-    //     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    //     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //     var scrolled = 100;
-        
-    //     if (height > 0) {
-    //         scrolled = (winScroll / height) * 100;
-    //     }
-
-    //     bar.style.height = scrolled + "%";
-    // }
-    
 }
 window.addEventListener('scroll', onScroll);
-
-
-
-
 
 function openContentFunction(div){
        
@@ -118,17 +98,6 @@ function openContentFunction(div){
         } 
 
 }
-
-
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//     document.getElementById("header").style.fontSize = "30px";
-//   } else {
-//     document.getElementById("header").style.fontSize = "90px";
-//   }
-// }
 
 document.addEventListener('DOMContentLoaded', processRows)
 function processRows() {
